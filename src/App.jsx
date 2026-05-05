@@ -1,9 +1,9 @@
 
-function App() {
-
+const App = () => {
   return (
-    <h2>Hello</h2>
-      
+    <div>
+      <h2>Hello</h2>
+    </div>
   )
 }
 
