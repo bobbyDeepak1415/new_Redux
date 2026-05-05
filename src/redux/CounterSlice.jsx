@@ -17,9 +17,8 @@ state.value+=1
             if(state.value<=0) return
 state.value-=1
         },
-        increaseBy10:(state)=>{
-            if(state.value<=0) return
-state.value-=1
+        increaseBy10:(state,action)=>{
+state.value+=action.payload
         },
     }
 })
